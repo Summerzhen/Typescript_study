@@ -15,7 +15,7 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 // npm i -D clean-webpack-plugin //清楚dist目录旧文件
 
 // 补充一个依赖
-// npm i -D @babel/core @babel/preset-env
+// npm i -D @babel/core @babel/preset-env babel-loader
 
 //webpack 中所有的配置信息都应该写在module.exports中
 module.exports = {
